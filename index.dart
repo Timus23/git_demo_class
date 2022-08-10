@@ -3,3 +3,7 @@ main() {
   print("This is test message");
   print("This is loolol");
 }
+
+int add(int num1, int num2) {
+  return num1 + num2;
+}
