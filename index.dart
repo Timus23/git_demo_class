@@ -9,7 +9,9 @@ int add(int num1, int num2) {
 }
 
 int multiplication(int num1, int num2) {
-  return num1 * num2;
+  final _result = num1 * num2;
+  print(_result);
+  return _result;
 }
 
 int subtraction(int num1, int num2) {
